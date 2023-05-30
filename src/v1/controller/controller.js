@@ -1,5 +1,5 @@
 const { ObjectId } = require("mongodb");
-const db = require("../config/config");
+const db = require("../config/config.js");
 
 const index = (req, res) => {
   db.collection("mahasiswa")
